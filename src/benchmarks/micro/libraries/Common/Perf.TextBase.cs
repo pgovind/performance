@@ -5,7 +5,7 @@
 using BenchmarkDotNet.Attributes;
 using System.IO;
 
-namespace System.Text
+namespace System.Text.Tests
 {
     public class Perf_TextBase
     {

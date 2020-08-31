@@ -6,7 +6,7 @@ using BenchmarkDotNet.Attributes;
 using MicroBenchmarks;
 using System.IO;
 
-namespace System.Text
+namespace System.Text.Tests
 {
     [BenchmarkCategory(Categories.Libraries, Categories.Runtime, Categories.NoWASM)]
     public class Perf_Utf8Encoding : Perf_TextBase
